@@ -20,7 +20,7 @@ def __init__(self, vrOverlayCenterOffset=None):
         self.preloadData = self.preload(onDemand=True)
         def text():
                 #bySoby
-                message = random.choice([u'\ue048Welcome to the server by PCModder\ue048',u'\ue00cServer version is 1.4.155\ue00c',u'\ue00cA day without laughter is a day wasted\ue00c',u'\ue048Join us in our discord server\ue048',u'\ue048Go out with memories, not dreams\ue048'])
+                message = random.choice([u'\ue048Welcome to the server by ATD\ue048',u'\ue00cServer version is 1.4.155\ue00c',u'\ue00cA day without laughter is a day wasted\ue00c',u'\ue048Join us in our discord server\ue048',u'\ue048Go out with memories, not dreams\ue048'])
                 t = bs.newNode('text',
                        attrs={ 'text':message,
                               'scale':1,
@@ -62,7 +62,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.gameTimer(7000,t.delete)
                 ##
                 t = bs.newNode('text',
-                       attrs={ 'text':u'Welcome to the server by Vortex and PCModder!',
+                       attrs={ 'text':u'Welcome to my Arabian server!',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
@@ -75,7 +75,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.gameTimer(15000,t.delete)
                 #bySoby
                 t = bs.newNode('text',
-                       attrs={ 'text':u'Happiness is not by chance but by choice',
+                       attrs={ 'text':u'be useful member',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
@@ -100,7 +100,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.animate(t,'opacity',{27000: 0.0,27500: 1.0,33500: 1.0,34000: 0.0})
                 bs.gameTimer(34000,t.delete)
                 t = bs.newNode('text',
-                       attrs={ 'text':u'#LoveYou4||Ever : Make me part of your desire',
+                       attrs={ 'text':u'ATD love all members',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
