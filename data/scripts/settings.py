@@ -37,7 +37,7 @@ showTextsInBottom = False
 coinTexts = ['Welcome to Vortex Official','Use "/shop commands" to see commands available to buy.','Use "/shop effects" to see effects available and their price.','Use "/me" or "/stats" to see your '+bs.getSpecialChar('ticket')+' and your stats in this server', 'Server modded by PCMODDER and Vortex']
 
 questionDelay = 60 #60 #seconds
-questionsList = {'Who is the owner of Server?': 'vortex', 'Who modded the server?': 'pcmodder','What language does bombsquad run on?': 'python','What is easy to get into but hard to get out of?': 'trouble', "If you don't keep me, I'll break. What am I?" : 'promise', 'What do you call a bear without ears?' : 'b', 'What is the largest planet in our solar system?' : 'jupiter', 'add': None, 'multiply': None}
+questionsList = {'Who is the owner of Server?': 'ATD', 'Who modded the server?': 'ATD','What language does bombsquad run on?': 'python','What is easy to get into but hard to get out of?': 'trouble', "If you don't keep me, I'll break. What am I?" : 'promise', 'What do you call a bear without ears?' : 'b', 'What is the largest planet in our solar system?' : 'jupiter', 'add': None, 'multiply': None}
 
 availableCommands = {'/nv': 50, 
    '/ooh': 5, 
