@@ -4,9 +4,9 @@
 #use accordingly
 #
 #
-modded_powerups = False
+modded_powerups = True
 #
-vanilla = True
+vanilla = False
 #
 grav = False
 #
@@ -26,15 +26,15 @@ powSweat = False
 #
 powExplo = False
 #
-flash = False
+flash = True
 #
 powerupName = True
 #
-animate = False
+animate = True
 #
 powerupShield = False
 #
-discoLights = False
+discoLights = True
 #
 powerupTimer = True
 #
