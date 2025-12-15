@@ -180,7 +180,7 @@ class Flag(bs.Actor):
             "flag",
             attrs={'position': (position[0],
                                 position[1] + 0.75, position[2]),
-                   'colorTexture': factory.flagTexture, 'color': color,
+                   'star': factory.flagTexture, 'color': color,
                    'materials':
                    [bs.getSharedObject('objectMaterial'),
                     factory.flagMaterial] + materials},
