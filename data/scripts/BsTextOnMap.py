@@ -20,7 +20,7 @@ def __init__(self, vrOverlayCenterOffset=None):
         self.preloadData = self.preload(onDemand=True)
         def text():
                 #bySoby
-                message = random.choice([u'\ue048Welcome to the server by ATD\ue048',u'\ue00cServer version is 1.4.155\ue00c',u'\ue00cA day without laughter is a day wasted\ue00c',u'\ue048Join us in our discord server\ue048',u'\ue048Go out with memories, not dreams\ue048'])
+                message = random.choice([u'\ue048Welcome to the server by ATD\ue048',u'\ue00cServer version is 1.4.155\ue00c',u'\ue00cA day without laughter is a day wasted\ue00c',u'\ue048Join us in our discord server\ue048',u'\ue048FLOW YOUR DREAMS\ue048'])
                 t = bs.newNode('text',
                        attrs={ 'text':message,
                               'scale':1,
@@ -49,7 +49,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.animate(t,'opacity',{0: 0.0,500: 1.0,6500: 1.0,51000: 0.0})
                 bs.gameTimer(51000,t.delete)
                 t = bs.newNode('text',
-                       attrs={ 'text':u'You can only dance around destiny for so long\n until fate pulls you in',
+                       attrs={ 'have fun whit ATD',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
@@ -113,7 +113,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.gameTimer(43000,t.delete)
                 ##
                 t = bs.newNode('text',
-                       attrs={ 'text':u'Today is the tomorrow you spoke of yesterday',
+                       attrs={ 'text':u'pleas respect other',
                                'scale': 1.3,
                               'maxWidth':0,
                               'position':(0,138),
