@@ -132,12 +132,12 @@ class BombFactory(object):
         self.landMineModel = bs.getModel('landMine')
         self.tntModel = bs.getModel('tnt')
 
-        self.regularTex = bs.getTexture('bombColor')
-        self.iceTex = bs.getTexture('bombColorIce')
+        self.regularTex = bs.getTexture('fontExtras2')
+        self.iceTex = bs.getTexture('powerupShield')
         self.stickyTex = bs.getTexture('bombStickyColor')
-        self.impactTex = bs.getTexture('impactBombColor')
-        self.impactLitTex = bs.getTexture('impactBombColorLit')
-        self.landMineTex = bs.getTexture('landMine')
+        self.impactTex = bs.getTexture('powerupCurse')
+        self.impactLitTex = bs.getTexture('white')
+        self.landMineTex = bs.getTexture('ouyaOButton')
         self.landMineLitTex = bs.getTexture('landMineLit')
         self.tntTex = bs.getTexture('tnt')
 
