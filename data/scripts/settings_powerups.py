@@ -26,13 +26,13 @@ powSweat = False
 #
 powExplo = False
 #
-flash = True
+flash = False
 #
 powerupName = True
 #
 animate = True
 #
-powerupShield = False
+powerupShield = True
 #
 discoLights = True
 #
