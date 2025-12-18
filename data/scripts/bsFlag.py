@@ -74,7 +74,7 @@ class FlagFactory(object):
             actions=(('modifyPartCollision', 'collide', False),
                      ('modifyPartCollision', 'physical', False)))
 
-        self.flagTexture = bs.getTexture('flagColor')
+        self.flagTexture = bs.getTexture('star')
 
 
 class FlagPickedUpMessage(object):
