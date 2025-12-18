@@ -190,13 +190,13 @@ class PowerupFactory(object):
 
 
 def getDefaultPowerupDistribution():
-    return (('tripleBombs',3),
-            ('iceBombs',3),
-            ('punch',3),
-            ('impactBombs',3),
+    return (('tripleBombs',2),
+            ('iceBombs',2),
+            ('punch',0),
+            ('impactBombs',2),
             ('landMines',2),
-            ('stickyBombs',3),
-            ('shield',2),
+            ('stickyBombs',2),
+            ('shield',0),
             ('health',1),
             ('curse',1))
 
