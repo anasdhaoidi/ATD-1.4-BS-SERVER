@@ -20,7 +20,7 @@ pcfloater = False
 #
 authentication = False
 #
-welcome_msg = u'\ue043 Welcome to the server by Avarohana! \ue043'
+welcome_msg = u'\ue043 Welcome to the server by ATD! \ue043'
 #
 tell_time = True
 #
