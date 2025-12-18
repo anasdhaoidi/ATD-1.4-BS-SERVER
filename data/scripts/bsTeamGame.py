@@ -7,8 +7,8 @@ import copy
 import bsTutorial
 import bsInternal
 
-gDefaultTeamColors = ((1, 2, 4), (1,1,1))
-gDefaultTeamNames = (u'\ue043LEGENDS',u'\ue048PROS')
+gDefaultTeamColors = ((0.45, 0.96, 1.91), (0.40,1.94,0))
+gDefaultTeamNames = (u'\ue043LEGENDS\ue043',u'\ue048PROS\ue048')
 
 gTeamSeriesLength = 7
 gFFASeriesLength = 24
