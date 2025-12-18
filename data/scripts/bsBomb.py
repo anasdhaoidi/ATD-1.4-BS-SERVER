@@ -128,18 +128,18 @@ class BombFactory(object):
 
         self.bombModel = bs.getModel('bomb')
         self.stickyBombModel = bs.getModel('bombSticky')
-        self.impactBombModel = bs.getModel('impactBomb')
+        self.impactBombModel = bs.getModel('bomb')
         self.landMineModel = bs.getModel('landMine')
         self.tntModel = bs.getModel('tnt')
 
         self.regularTex = bs.getTexture('fontExtras2')
         self.iceTex = bs.getTexture('powerupShield')
-        self.stickyTex = bs.getTexture('bombStickyColor')
+        self.stickyTex = bs.getTexture('aliColorMask')
         self.impactTex = bs.getTexture('powerupCurse')
-        self.impactLitTex = bs.getTexture('white')
+        self.impactLitTex = bs.getTexture('impactBombColor')
         self.landMineTex = bs.getTexture('ouyaOButton')
-        self.landMineLitTex = bs.getTexture('landMineLit')
-        self.tntTex = bs.getTexture('tnt')
+        self.landMineLitTex = bs.getTexture('white')
+        self.tntTex = bs.getTexture('levelIcon')
 
         self.hissSound = bs.getSound('hiss')
         self.debrisFallSound = bs.getSound('debrisFall')
