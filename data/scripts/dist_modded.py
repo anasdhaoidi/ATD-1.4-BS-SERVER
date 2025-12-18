@@ -77,5 +77,4 @@ powerup_dist = (('tripleBombs', 2),
                 ('characterPicker',1),
                 ('colorPicker',),
                 ('flyer',2),
-
                 ('curse', 0))
