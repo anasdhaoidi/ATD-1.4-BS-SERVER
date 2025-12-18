@@ -49,7 +49,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.animate(t,'opacity',{0: 0.0,500: 1.0,6500: 1.0,51000: 0.0})
                 bs.gameTimer(51000,t.delete)
                 t = bs.newNode('text',
-                       attrs={ 'text':u'have fun whit ATD\n JOIN OUR DISCORD',
+                       attrs={ 'text':u'\ue048have fun whit ATD\ue048',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
@@ -62,7 +62,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.gameTimer(7000,t.delete)
                 ##
                 t = bs.newNode('text',
-                       attrs={ 'text':u'Welcome to the server by ATD TEAM',
+                       attrs={ 'text':u'👋Welcome to the server by ATD TEAM👋',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
@@ -100,7 +100,7 @@ def __init__(self, vrOverlayCenterOffset=None):
                 bs.animate(t,'opacity',{27000: 0.0,27500: 1.0,33500: 1.0,34000: 0.0})
                 bs.gameTimer(34000,t.delete)
                 t = bs.newNode('text',
-                       attrs={ 'text':u'RESPECT OTHER',
+                       attrs={ 'text':u'❤️RESPECT OTHER❤️',
                               'scale':1.3,
                               'maxWidth':0,
                               'position':(0,138),
