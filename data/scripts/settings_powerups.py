@@ -4,7 +4,7 @@
 #use accordingly
 #
 #
-modded_powerups = True
+modded_powerups = False
 #
 vanilla = False
 #
