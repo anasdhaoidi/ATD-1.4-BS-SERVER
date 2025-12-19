@@ -3424,7 +3424,7 @@ class Background(bsGame.Actor):
         with bs.Context(session):
             self.node = bs.newNode('image', delegate=self, attrs={
                 'fillScreen':True,
-                'texture':bs.getTexture('menuBG'),
+                'texture':bs.getTexture('alwaysLandBGColor'),
                 'tiltTranslate':-0.3,
                 'hasAlphaChannel':False,
                 'color':(0.2,1,1)})
@@ -3432,7 +3432,7 @@ class Background(bsGame.Actor):
                 animate(self.node, 'opacity',
                         {0:0, self.fadeTime:1}, loop=False)
             if showLogo:
-                logoTexture = random.choice([bs.getTexture('chestIcon'),bs.getTexture('star'),bs.getTexture('heart')])
+                logoTexture = random.choice([bs.getTexture('chestIcon'),bs.getTexture('star'),bs.getTexture('logoEaster')])
                 logoModel = bs.getModel('logo')
                 logoModelTransparent = bs.getModel('logoTransparent')
                 self.logo = bs.newNode('image', owner=self.node, attrs={
