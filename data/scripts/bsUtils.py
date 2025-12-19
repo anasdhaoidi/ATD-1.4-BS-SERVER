@@ -3822,7 +3822,7 @@ class Background(bsGame.Actor):
                                    delegate=self,
                                    attrs={
                                        'fillScreen': True,
-                                       'texture': bs.getTexture('bg'),
+                                       'texture': bs.getTexture('alwaysLandBGColor'),
                                        'tiltTranslate': -0.3,
                                        'hasAlphaChannel': False,
                                        'color': (1, 1, 1)
